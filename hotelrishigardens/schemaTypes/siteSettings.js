@@ -3,10 +3,11 @@ export default {
   title: 'Site Settings',
   type: 'document',
   fields: [
-    {name: 'phone', title: 'Phone Number', type: 'string'},
+    {name: 'hotelName', title: 'Hotel Name', type: 'string'},
+    {name: 'phone', title: 'Contact Phone', type: 'string'},
+    {name: 'email', title: 'Contact Email', type: 'string'},
     {name: 'whatsapp', title: 'WhatsApp Number', type: 'string'},
-    {name: 'primaryColor', title: 'Primary Color', type: 'string'},
-    {name: 'heroTitle', title: 'Hero Title Text', type: 'string'},
-    {name: 'heroImage', title: 'Hero Image', type: 'image', options: {hotspot: true}},
+    {name: 'address', title: 'Full Address', type: 'text'},
+    {name: 'heroImage', title: 'Hero Background', type: 'image'},
   ]
 }
