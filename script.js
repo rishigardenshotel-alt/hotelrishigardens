@@ -1,5 +1,5 @@
 // 1. CONFIGURATION
-const PROJECT_ID = 'o3T0AUnu2';
+const PROJECT_ID = 'chclbtae';
 const DATASET = 'production';
 
 const client = sanityClient({
