@@ -539,7 +539,7 @@ nav{
     border-radius: 50%;
     box-shadow: 0 0 5px 1px #ff6200;
     display: none;
-    
+    z-index:999;
 }
 #backtotop:hover{
     box-shadow: 0 1px 5px 3px #ff6200;
