@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary SEO -->
+    <title>Gallery & Blog | Hotel Rishi Garden, Nellore</title>
+    <meta name="description" content="Browse real photos and updates from Hotel Rishi Garden — infrastructure, rooms, restaurant, and reception. See before you trust.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://yourdomain.com/blog.html">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Gallery & Blog | Hotel Rishi Garden">
+    <meta property="og:description" content="Real photos of Hotel Rishi Garden — rooms, restaurant, garden and more.">
+    <meta property="og:image" content="https://yourdomain.com/assets/facade.jpg">
+    <meta property="og:url" content="https://yourdomain.com/blog.html">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Gallery | Hotel Rishi Garden">
+    <meta name="twitter:description" content="Real photos of every corner of Hotel Rishi Garden, Nellore.">
+    <meta name="twitter:image" content="https://yourdomain.com/assets/facade.jpg">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <!--Navbar-->
+        <nav style="top: 40px;">
+            <div class="navbar" style=" margin:0 auto;width: 95%;" >
+                <img src="assets/menu-closed.svg" alt="menu icon" class="menu" title="Menu">
+                    <h1 class="name"><a href="index.html">Hotel Rishi Garden</a></h1>
+                    <ul class="nav-links">
+                        <li><a href="https://www.google.com/maps/place/Hotel+Rishi+Gardens/@13.550292,80.0594278,17z/data=!4m11!3m10!1s0x3a4d7799a90e7ca1:0xe912cfafb003317f!5m2!4m1!1i2!8m2!3d13.550292!4d80.0620027!9m1!1b1!16s%2Fg%2F1hm464c23?entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D" target="_blank">Reviews</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+            </div>
+            <div class="sidenav">
+                <h3>Rishi Garden</h3><hr>
+                <ul>
+                    <li ><a href="index.html"><strong>Home</strong></a></li>
+                    <li><a href="https://www.google.com/maps/place/Hotel+Rishi+Gardens/@13.550292,80.0594278,17z/data=!4m11!3m10!1s0x3a4d7799a90e7ca1:0xe912cfafb003317f!5m2!4m1!1i2!8m2!3d13.550292!4d80.0620027!9m1!1b1!16s%2Fg%2F1hm464c23?entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D" target="_blank">Reviews</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <h3 style="border-color: white;"><a href="blog.html">Gallery-blogs</a></h3><hr>
+                <ul class="category-filters">
+                    <li><button class="filter-btn" id="filter-all">All</button></li>
+                    <li><button class="filter-btn" id="filter-infrastructure">Infrastructure</button></li>
+                    <li><button class="filter-btn" id="filter-services">Services</button></li>
+                    <li><button class="filter-btn" id="filter-reception">Reception</button></li>
+                    <li><button class="filter-btn" id="filter-restaurant">Restaurant</button></li>
+                </ul>
+            </div>
+        </nav>
+        <!--Blog page-->
+        <section class="blog-section">
+            <div class="blog-announcement">
+                <div class="blog-announcement-container">
+                    <p>Follow for regular updates</p>
+                    <p>Don't just trust blindly</p>
+                    <p>Trust what you see ,what you hear</p>
+                    <p>Aim of the blog to provide customers trust</p>
+
+                    <p>Follow for regular updates</p>
+                    <p>Don't just trust blindly</p>
+                    <p>Trust what you see ,what you hear</p>
+                    <p>Aim of the blog to provide customers trust</p>
+                </div>
+            </div>
+            <div class="blog-title">
+                <h1>View of Hotel Rishi Garden</h1>
+                <h3>Inspect the every corner</h3>
+            </div>
+                <!-- ADD THIS BLOCK -->
+                <div class="recent-posts-section">
+                <h4>Recently Uploaded</h4>
+                <div class="recent-posts-row" id="recent-posts-row">
+                    <!-- JS will put 5 small cards here -->
+                </div>
+                </div>
+                
+                <button id="backtotop" title="Go to top">Top</button>
+                <p class="share-toast hidden">Copied!</p>
+
+                <h1 class="blog-content-title">Posts uploaded in last month</h1><hr>
+            <div class="blog-contents" id="blog-contents">
+                <!--blog content goes here-->
+                
+            <!--<div class="blog-card" data-post-slug="${posts.slug}" data-post-title="${posts.title}" data-post-description="${posts.description}" data-post-date="${posts.postDate}" data-category="${posts.category}"">
+                <h2 class="blog-card-title">${posts.title}</h2>
+                <div class="blog-card-img">
+                    <img src="${posts.image}" alt="garden image">
+                    <div class="blog-card-share">
+                    <button class="share-btn">
+                        <img src="assets/share.svg" alt="share icon">
+                    </button>
+                    <span class="share-toast hidden">Copied!</span>
+                    </div>
+                </div>
+                <div class="blog-card-description-container">
+                    <p class="blog-card-description">${posts.description}</p>
+                </div>
+                <p class="blog-card-posted-date"><strong>Posted on: </strong>${posts.postDate}</p>
+        </div>-->
+        
+            </div>
+            <ul class="category-filter">
+                <li><button class="show-all filter-btn" id="filter-all"> Show All</button></li>               
+                </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
