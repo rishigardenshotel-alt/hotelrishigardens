@@ -297,7 +297,7 @@ nav{
     position: relative;
     font-size: 22px;
     border: 2px solid #ff6200;
-    padding: 5px 10px;
+    padding: 8px 12px;
     border-radius: 5px;
     box-shadow: 0 0 5px 3px #ff6200;
     font-weight: bold;
@@ -308,6 +308,7 @@ nav{
 .hero-btn button a{
     text-decoration: none;
     color: white;
+    width:100%;
 }
 .hero-btn button::before{
     content: " ";
@@ -636,7 +637,7 @@ nav{
 }
 footer{
     height: 40dvh;
-    background-color: #142d4a;
+    background-color: #FF0000;
     padding: 20px;
 }
 .footer{
