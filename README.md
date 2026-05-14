@@ -18,7 +18,7 @@ A modern, fully responsive, and dynamic hotel management website designed for a 
 
 * **Frontend:** HTML5, CSS3, Vanilla JavaScript
 * **Animations:** Custom CSS Keyframes / JS-driven transitions
-* **Deployment:** Netlify
+* **Deployment:** Netlify and Vercel
 * **Dynamic Data:** JS-based local/remote data handling for blogs and bookings
 
 ## 📂 Project Structure
@@ -29,8 +29,14 @@ The website consists of four primary pages:
 2. **Blog:** Dynamic section for news, updates, and events related to the hotel.
 3. **Booking:** Functional interface for guests to check availability and details.
 4. **Contact:** Interactive form with automated mail-to functionality.
+<img width="1888" height="905" alt="Screenshot 2026-05-14 175056" src="https://github.com/user-attachments/assets/aecbc07d-f630-4879-aef7-245f1f572279" />
+<img width="941" height="602" alt="Screenshot 2026-05-14 175158" src="https://github.com/user-attachments/assets/624ba693-7373-46aa-b67b-07d37e660ca9" />
+<img width="1888" height="905" alt="Screenshot 2026-05-14 175056" src="https://github.com/user-attachments/assets/efadccea-d3ee-4b2b-9835-bfc1c8228a6c" />
+<img width="1895" height="905" alt="Screenshot 2026-05-14 175025" src="https://github.com/user-attachments/assets/b7173822-b818-4909-8e48-18b44d53bb24" />
+<img width="1901" height="897" alt="Screenshot 2026-05-14 175001" src="https://github.com/user-attachments/assets/e0db54b0-f2c1-4cdb-8b15-f2068a722873" />
 
 ## 📱 Mobile Preview
+<img width="375" height="793" alt="image" src="https://github.com/user-attachments/assets/806f0de7-c160-473f-86da-d2741c5a138d" />
 
 The UI is designed with a "Mobile-First" philosophy, ensuring that touch targets are accessible and the layout adapts fluidly to smaller screens.
 
